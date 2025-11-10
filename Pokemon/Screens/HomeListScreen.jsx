@@ -3,13 +3,13 @@ import { View } from 'react-native';
 import { FlashList } from '@shopify/flash-list';
 import { fetchPokemonList } from '../lib/api';
 import { filterBySearch, sortItems, applySimpleFilter } from '../lib/helpers';
-import SearchBar from '../components/SearchBar';
-import SortBar from '../components/SortBar';
-import PokemonCard from '../components/PokemonCard';
-import LoadingState from '../components/LoadingState';
-import EmptyState from '../components/EmptyState';
-import ErrorState from '../components/ErrorState';
-import styles from '../styling/globalStyles';
+import SearchBar from '../Components/Searchbar';
+import SortBar from '../Components/Sortbar';
+import PokemonCard from '../Components/PokemonCard';
+import LoadingState from '../Components/LoadingState';
+import EmptyState from '../Components/EmptyState';
+import ErrorState from '../Components/ErrorState';
+import styles from '../Styles/globalStyles';
 
 export default function HomeListScreen({ navigation }) {
   const [query, setQuery] = useState('');
