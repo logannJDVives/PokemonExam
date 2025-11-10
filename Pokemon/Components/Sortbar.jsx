@@ -1,6 +1,6 @@
 import React from 'react';
 import { Text, TouchableOpacity, View } from 'react-native';
-import styles from '../styling/globalStyles';
+import styles from '../Styles/globalStyles';
 
 const SortBtn = ({ label, active, onPress }) => (
   <TouchableOpacity onPress={onPress} style={[styles.btn, active && styles.btnActive]}>

@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { Image, Text, View } from 'react-native';
-import styles from '../styling/globalStyles';
+import styles from '../Styles/globalStyles';
 
 export default function ProfileScreen() {
   useEffect(() => {

@@ -2,9 +2,9 @@ import React, { useEffect } from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import HomeListScreen from './screens/HomeListScreen';
-import HomeDetailScreen from './screens/HomeDetailScreen';
-import ProfileScreen from './screens/ProfileScreen';
+import HomeListScreen from './Screens/HomeListScreen';
+import HomeDetailScreen from './Screens/HomeDetailScreen';
+import ProfileScreen from './Screens/ProfileScreen';
 
 const Tab = createBottomTabNavigator();
 const Stack = createNativeStackNavigator();

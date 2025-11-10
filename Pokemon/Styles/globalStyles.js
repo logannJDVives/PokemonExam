@@ -1,5 +1,5 @@
 import { StyleSheet } from 'react-native';
-import colors from './colors';
+import colors from './Colors';
 
 export default StyleSheet.create({
   screen: { flex:1, backgroundColor: colors.bg, paddingHorizontal: 16, paddingTop: 12 },

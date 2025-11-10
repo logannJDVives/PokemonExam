@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { Image, ScrollView, Text, View } from 'react-native';
 import { fetchPokemonDetail } from '../lib/api';
-import styles from '../styling/globalStyles';
-import colors from '../styling/colors';
+import styles from '../Styles/globalStyles';
+import colors from '../Styles/Colors';
 
 export default function HomeDetailScreen({ route }) {
   const { idOrName } = route.params;
